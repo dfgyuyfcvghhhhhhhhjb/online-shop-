@@ -1,0 +1,42 @@
+name: products_app
+description: A Flutter app for managing products with CRUD, search, and favorites
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  get: ^4.6.6
+  
+  # Image Picker
+  image_picker: ^1.1.2
+  
+  # Local Storage
+  shared_preferences: ^2.3.2
+  
+  # Path Provider
+  path_provider: ^2.1.4
+  
+  # UUID Generator
+  uuid: ^4.5.1
+  
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # assets:
+  #   - assets/images/
